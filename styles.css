@@ -15,6 +15,10 @@ body {
 	min-width: 600px;
 	padding: 15px;
 	font-family: Arial, Helvetica, sans-serif;
+	display: flow-root;
+
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;
 }
 
 nav{
@@ -29,13 +33,31 @@ h1 {
 	text-align: center;
 }
 
-.float-right{
-	float: right;
-	clear: both;
+.float-left{
+	float: left;
 }
 
-.clearfix::after {
-	overflow: auto;
+.float-right{
+	float: right;
+}
+
+.clearfix {
+	clear: right;
+}
+
+.clearfix:after {
+	content: ".";
+	height: 0;
 	clear: both;
-	display: table;
+	display: block;
+	overflow: hidden;
+}
+
+img {
+	max-width: 80%;
+}
+
+img.gallery {
+	float: left;
+	max-width: 30%;
 }
