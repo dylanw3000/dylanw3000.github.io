@@ -3,6 +3,8 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="slideshow.css">
+	
 </head>
 
 <body>
@@ -16,8 +18,63 @@
 			<span><a href="2021_Resume_DylanWashburne.pdf">R&eacute;sum&eacute;</a></span>
 		</nav>
 
+		
+
+
+
+
+
 		<h1 class="cursive">Sample Works</h1>
 		<div class="mini-container">
+
+			<h2 id="3d">3D Environment Engine</h2>
+			<p>Made for <a href="https://github.com/dylanw3000/CS541-Digipen">CS 541 Advanced Computer Graphics</a> for my Master's program at Digipen.  This involved deferred shading, reflections, physically-based rendering, and ray tracing for a very high-fidelity scene.</p>
+
+			<!--
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+				  <div class="numbertext">1 / 3</div>
+				  <img src="3dwall.png" style="width:100%">
+				  <div class="text">Caption Text</div>
+				</div>
+				
+				<div class="mySlides fade">
+				  <div class="numbertext">2 / 3</div>
+				  <img src="3dwater.png" style="width:100%">
+				  <div class="text">Caption Two</div>
+				</div>
+				
+				<div class="mySlides fade">
+				  <div class="numbertext">3 / 3</div>
+				  <img src="3dreflect.png" style="width:100%">
+				  <div class="text">Caption Three</div>
+				</div>
+				
+				<a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1,0)">&#10095;</a>
+				
+			</div>
+	
+			<br>
+			
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(0,0)"></span> 
+				<span class="dot" onclick="currentSlide(1,0)"></span> 
+				<span class="dot" onclick="currentSlide(2,0)"></span> 
+			</div>
+	
+			<script src="slideshow.js"></script>
+			-->
+
+			
+			<div class="clearfix">
+				<img class="gallery" src="3dwall.png">
+				<img class="gallery" src="3dwater.png">
+				<img class="gallery" src="3dreflect.png">
+			</div>
+			
+
 			<!-- <h2>MS CS Game Engine</h2> TODO: Prototype 1, then acquire screenshots -->
 
 
@@ -38,8 +95,10 @@
 
 			<h2>ConCaveity</h2>
 			<p>Made for <a href="https://github.com/dylanw3000/CS541-Digipen">GAM 541 Master's Game Project</a> at DigiPen, modifying <a href="#engine">my personal 2d game engine</a> in a 4-man group.  Implements platforming and several art enhancements to create a feature-length stealth game.</p>
-			<img style="max-width:49%;" src="ConCaveity_title.png">
-			<img style="max-width:49%;" src="ConCaveity_Level.png">
+			<div class="clearfix">
+				<img style="max-width:49%;" src="ConCaveity_title.png">
+				<img style="max-width:49%;" src="ConCaveity_Level.png">
+			</div>
 
 			<br /><br />
 
@@ -52,11 +111,7 @@
 			<p>Made for <a href="https://github.com/dylanw3000/CS529-Digipen">CS 529 Fundamentals of Game Development</a> for my Master's program at Digipen, I built my own game engine from the ground up.  This includes frame rate controllers, OpenGL integration, and a massive emphasis on component-based design to keep everything scalable and efficient.</p>
 			<img style="max-width: 600px;" src="engine_screenshot.png">
 
-			<h2 id="3d">3D Environment Engine</h2>
-			<p>Made for <a href="https://github.com/dylanw3000/CS541-Digipen">CS 541 Advanced Computer Graphics</a> for my Master's program at Digipen.  This involved deferred shading, reflections, physically-based rendering, and ray tracing for a very high-fidelity scene.</p>
-			<img class="gallery" src="3dwall.png">
-			<img class="gallery" src="3dwater.png">
-			<img class="gallery clearfix" src="3dreflect.png">
+			
 		</div>
 		
 	</div>
