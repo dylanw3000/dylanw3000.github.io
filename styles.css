@@ -48,6 +48,10 @@ h1,h2 {
 	text-align: center;
 }
 
+hr {
+	border-top: 3px solid #888;
+}
+
 .cursive {
 	font-family: Brush Script MT, Brush Script Std, cursive;
 	text-align: left;
