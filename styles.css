@@ -15,7 +15,6 @@ body {
 	background-color: #eee;
 	margin: 30px auto;
 	width: 60%;
-	min-width: 600px;
 	padding: 15px;
 	font-family: Arial, Helvetica, sans-serif;
 	display: flow-root;
@@ -50,6 +49,7 @@ h1,h2 {
 
 hr {
 	border-top: 3px solid #888;
+	margin-top: 20px;
 }
 
 .cursive {
@@ -90,4 +90,28 @@ img.gallery {
 .center {
 	display:block;
 	margin: 0 auto;
+}
+
+iframe {
+	width: 100%;
+	max-width: 640px;
+	height: 360px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.container {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	iframe {
+		max-width: 480px;
+		height: 270px;
+	}
+
+	.container {
+		width: 95%;
+		margin-top: 10px;
+	}
 }
